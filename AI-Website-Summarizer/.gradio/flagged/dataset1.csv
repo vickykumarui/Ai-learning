@@ -1,0 +1,39 @@
+Website URL,Summary,timestamp
+https://22f1001418.github.io/AI-engg-scripts-SL/,"**AI Engineering – Class 1: Build & Ship Your First AI App**
+
+- **Why AI is booming now**  
+  - 70 years of research condensed by the 2017 **Transformer** breakthrough and the 2022 launch of **ChatGPT**.  
+  - Models are now **general‑purpose** and can be accessed via simple APIs, collapsing the barrier to entry.
+
+- **LLM fundamentals**  
+  - An LLM predicts the next **token** (≈¾ of a word).  
+  - Tokens enable a compact, universal vocabulary.  
+  - **Temperature** controls creativity (low = focused, high = creative).  
+  - Models have **no memory** between calls; the full context must be resent each time.
+
+- **Training trick – self‑supervision**  
+  - Models learn by filling in blanks on the entire internet, eliminating the need for massive human‑labelled datasets.  
+  - This leads to powerful but sometimes “hallucinated” outputs.
+
+- **What you can build** – 8 common AI product categories  
+  1. Coding assistants  
+  2. Writing tools  
+  3. Image & video generators  
+  4. Educational tutors  
+  5. Chatbots  
+  6. Info‑aggregation (summarisation) **← today’s project**  
+  7. Data organization  
+  8. Workflow/agents  
+
+- **Mini‑project: AI Website Summariser**  
+  1. **Setup** – install VS Code/Cursor, Python extensions, get an OpenAI (or Groq/Ollama) API key, store it in a `.env` file.  
+  2. **6‑line API call** – use `openai.OpenAI()` to send a system prompt + user request and receive a response.  
+  3. **Scraper** – `requests` + `BeautifulSoup` fetches readable page text.  
+  4. **Summariser** – a prompt tells the LLM to produce a short, friendly summary (ignore navigation).  
+  5. **UI with Gradio** – 4‑line interface turns the function into a shareable web app (public link via `share=True`).  
+
+- **Shipping the app**  
+  - Record a short screen‑capture, write a LinkedIn post using the provided template, tag `#AIEngineering`, and engage with comments.  
+  - The same pattern (input → prompt → Gradio) can be reused for other beginner‑friendly projects (email subject lines, CV cover letters, YouTube summariser, recipe formatter, travel planner, etc.).
+
+> **Takeaway:** Modern AI models are reusable “brains” you can plug into a few lines of code, enabling anyone to build, ship, and showcase a useful AI product in a single afternoon.",2026-11-06 00:05:37.256726
