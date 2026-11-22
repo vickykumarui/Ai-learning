@@ -1,0 +1,7 @@
+openai==2.6.1
+groq==0.33.0
+python-dotenv==1.1.1
+langchain_openai
+langchain_core
+bs4
+gradio
